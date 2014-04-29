@@ -1,6 +1,6 @@
 {
     "name": "artbit/isget",
-    "description": "This is a handy little helper function that is used to replace the common pattern of isset ... ? ... : ...;  which can be ugly and redundant.",
+    "description": "This is a handy little helper function that is used to replace the common pattern of isset($a, $a['b']) ? $a['b'] : $c;  which can be ugly and redundant.",
     "type": "library",
     "keywords": ["array", "isset", "ternary"],
     "license": "MIT",
