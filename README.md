@@ -15,7 +15,7 @@ It does two things:
 mixed isget(array $inputarray['somekey'], mixed $default_value)
 ```
 
-If the `somekey` exists, the function will return its value, if it's not, it will return the provided default value (or `false` by default);
+If the `somekey` key is set, the function will return its value, if it's not, it will return the provided default value (or `false` by default);
 
 It comes in really handy, if your function supports an array of options, and you don't want to worry about checking if the option has been set or not. 
 i.e.
@@ -52,7 +52,7 @@ to your project's `composer.json` file:
 ``` javascript
 {
     "require": {
-        "artbit/isget": "~1.1"
+        "artbit/isget": "dev-master"
     }
 }
 ```
