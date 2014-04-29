@@ -24,6 +24,10 @@ class IsGetTest extends \PHPUnit_Framework_TestCase
 
     }
 
+    public function test_inception() {
+        $this->assertEquals('inception', isget($dream['within_a_dream']['within_a_dream']['within_a_dream']['...'], 'inception'), 'We have to go deeper!');
+    }
+
     public function provider() {
         return array(
             array(

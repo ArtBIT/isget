@@ -4,6 +4,8 @@
 
 This is a handy little helper function that is used to replace the common pattern of `isset($a, $a['b']) ? $a['b'] : $c;`  which can be ugly and redundant.
 
+You can think of it as a long lost brother of `isset()`.
+
 It does two things:
  * It silences down the PHP Undefined index notice, when trying to access an inexistent key in an array 
  * And returns a default value if the key is not set
@@ -37,11 +39,11 @@ echo do_something($a, array('forceint' => true));
 // 12
 ```
 
-You can go deeper, with multidimensional array checks.
+If you need to go deeper, you can.
 ``` php
-$a = array();
-echo isget($a['somekey']['someotherkey'], 'not set');
-// not set
+$dream = array();
+echo isget($dream['within_a_dream']['within_a_dream']['within_a_dream']['...'], 'inception!');
+// inception!
 ```
 
 ## Installation
