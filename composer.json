@@ -1,0 +1,17 @@
+{
+    "name": "artbit/isget",
+    "description": "This is a handy little helper function that is used to replace the common pattern of isset ... ? ... : ...;  which can be ugly and redundant.",
+    "type": "library",
+    "keywords": ["array", "isset", "ternary"],
+    "license": "MIT",
+    "homepage": "https://github.com/artbit/isget",
+    "authors": [
+        {
+            "name": "Djordje Ungar",
+            "homepage": "http://djordjeungar.com"
+        }
+    ],
+    "autoload": {
+        "files": ["src/isget.php"]
+    }
+}
