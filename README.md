@@ -1,6 +1,6 @@
 # isget() for PHP
 
-[![Build Status](https://travis-ci.org/ArtBIT/isget.svg)](https://travis-ci.org/ArtBIT/isget)
+[![Build Status](https://travis-ci.org/ArtBIT/isget.svg)](https://travis-ci.org/ArtBIT/isget) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ArtBIT/isget/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/ArtBIT/isget.svg)](https://github.com/ArtBIT/isget/issues)
 
 This is a handy little helper function that is used to replace the common pattern of `isset($a, $a['b']) ? $a['b'] : $c;`  which can be ugly and redundant.
 
